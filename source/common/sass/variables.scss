@@ -1,0 +1,84 @@
+//  Colors
+//---------------------------------
+// https://www.htmlcsscolor.com/hex/334482
+
+// Default
+
+$color-default-black:             #000000; //#2C2C2C,#262D27;
+$color-default-white:             #ffffff;
+$color-default-white-2:           #fafafa;
+$color-transparent:               rgba(255, 255, 255, 0);
+
+// Base
+
+$color-night-rider:               #323232; // $text-color
+$color-nero:                      #1f1e1e; // $title-color
+$color-dim-gray:                  #666666; // $review-text-color, #6C6C6C
+$color-suva-grey:                 #919191;
+$color-eclipse:                   #3f3f3f;
+$color-grey:                      #797979; //rgba(63, 63, 63, 0.7),#808080;
+$color-grey-2:                    #e5e5e5;
+$color-grey-3:                    #8c8c8c;
+$color-zambezi:                   #595959;
+$color-lime-green:                #31cc48; // $accent-color, #43D959
+$color-lime-green-2:              #46d97a;
+$color-green:                     #35c44a;
+$color-green-2:                   #049954;
+$color-purple:                    #74017e;
+$color-orange:                    #e36c06;
+$color-red:                       #d70834;
+$color-blue:                      #077dce;
+$color-blue-2:                    #2e5cff;
+
+
+// text colors
+
+$text:                            $color-default-black;
+$text-color:                      $color-night-rider;
+$title-color:                     $color-nero;
+$review-text-color:               $color-dim-gray;
+$accent-color:                    $color-lime-green;
+
+
+// background colors
+
+$background-color: $color-default-white;
+
+// Gradient
+
+$black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+$accent-color:                      linear-gradient(55.42deg, #43d959 -7.33%, #2e5cff 130.63%), #c4c4c4;
+$grey-to-bottom:                    linear-gradient(0deg, #6a6a6a 20.77%, rgba(91, 91, 91, 0) 49.99%);
+$lime-to-blue:                      linear-gradient(55.42deg, #43d959 -7.33%, #2e5cff 130.63%);
+$gradient-color:                      linear-gradient(55.42deg, #43d959 -7.33%, #2e5cff 130.63%);
+
+// Typography
+//---------------------------------
+
+$font-montserrat:                   "Montserrat", "Arial", sans-serif;
+
+// https://www.artlebedev.ru/kovodstvo/sections/159/
+$font-family--rouble:               "Rouble", "Arial", sans-serif;
+
+// Animation
+//---------------------------------
+
+$trans--300:                        0.3s ease;
+$trans--600:                        0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+// Viewports
+//---------------------------------
+
+$vp--320:                           320px;
+$vp--375:                           375px;
+$vp--768:                           768px;
+$vp--1024:                          1024px;
+$vp--1280:                          1280px;
+$vp--1440:                          1440px;
+$vp--1920:                          1920px;
+
+// Retina
+//---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;
